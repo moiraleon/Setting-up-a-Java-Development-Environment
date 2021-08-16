@@ -1,0 +1,24 @@
+Set up  and prepare to code with Java
+PART 1: INSTALL Java on Computer
+https://mkyong.com/java/how-to-install-java-on-mac-osx/
+    or visit java.com and install java through the website is cask command and homebrew commands don't operate
+Part 2:INSTALL/ DOWNLOAD IntelliJ
+
+visit https://www.jetbrains.com/idea/download/#section=mac
+click Download
+Open and save to Dock - Mac configures automatic settings
+
+Part 3: OVERVIEW/ Steps for making JAR files
+open command line
+run: jar cvf "name".jar .
+   creates manifest.mf file
+run: java -jar "name".jar
+    may throw error of no main manifest attribute so run next line
+    https://mkyong.com/java/how-to-add-your-manifest-into-a-jar-file/
+run: jar cvmf TC-MANIFEST.MF "name".jar .
+    the m in cvmf tells it to create a custom manifest file
+    then you can run/ open your code as it would appear on any device with a running java sdk
+run: java -jar "name".jar
+
+
+DONE
