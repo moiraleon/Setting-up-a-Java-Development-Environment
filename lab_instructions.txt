@@ -1,4 +1,4 @@
-Set up  and prepare to code with Java
+Set up and prepare to code with Java for MacOS
 PART 1: INSTALL Java on Computer
 https://mkyong.com/java/how-to-install-java-on-mac-osx/
     or visit java.com and install java through the website is cask command and homebrew commands don't operate
